@@ -52,7 +52,7 @@ defmodule O11y.MixProject do
       {:opentelemetry_exporter, "~> 1.8", only: :test},
       {:opentelemetry_api, "~> 1.4"},
       {:opentelemetry, "~> 1.5", only: :test, runtime: false},
-      {:decimal, "~> 2.0", optional: true},
+      {:decimal, "~> 2.0 or ~> 3.0", optional: true},
       {:ecto, "~> 3.0", optional: true},
       {:igniter, "~> 0.6", optional: true}
     ]

@@ -1,5 +1,9 @@
 # O11y
 
+## Unreleased
+
+- Allows Decimal 3 (`~> 2.0 or ~> 3.0`).
+
 ## v0.3.0
 
 - Adds an [Igniter](https://hex.pm/packages/igniter) installer (`mix igniter.install o11y`) that sets up OpenTelemetry packages, configuration, and a `Tracer` module for your project.
